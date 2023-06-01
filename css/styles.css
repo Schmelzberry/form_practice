@@ -14,7 +14,7 @@ body {
 
 .fancyText {
     font-family: "Flow Block";
-    top: 350px;
+    top: 335px;
 }
 
 .basicText {
@@ -37,10 +37,10 @@ form {
 .arrow {
     position: absolute;
     left: 95%;
-    top: 70%;
+    top: 80%;
     transform: translate(-50%,-50%);
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 100px;
     opacity: 50%;
     background-color: black;
     clip-path: polygon(0 0, 0% 100%, 40% 50%);
@@ -54,7 +54,8 @@ form {
     position: absolute;
     color: white;
     font-family: Roboto Mono;
-    top: 45%;
+    font-size: 8px;
+    top: 42%;
     left: 15%;
     transform: translate(-50%,-50%);
 }
@@ -73,6 +74,18 @@ label {
 }
 input {
     position: absolute;
+    top: 60px;
+    left: 50px;
+    font-family: Caveat;
+    font-size: 30px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid black ;
+}
+
+#story {
+    position:absolute;
     top: 60px;
     left: 50px;
     font-family: Caveat;
