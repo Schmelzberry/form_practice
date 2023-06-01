@@ -1,0 +1,18 @@
+body {
+    background-color:coral;
+}
+.standardText {
+    font-family: Roboto Mono;
+    position: absolute;
+    left: 50vw;
+    top:25vw;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.fancyText {
+    font-family: "Flow Block";
+    top: 40vw;
+}
+.basicText {
+    
+}
