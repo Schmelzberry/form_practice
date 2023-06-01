@@ -1,18 +1,42 @@
 body {
-    background-color:coral;
+    background-color: coral;
 }
+
 .standardText {
     font-family: Roboto Mono;
     position: absolute;
     left: 50vw;
-    top:25vw;
-    transform: translate(-50%,-50%);
+    top: 25vw;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .fancyText {
     font-family: "Flow Block";
-    top: 40vw;
+    top: 28vw;
 }
+
 .basicText {
-    
+    font-family: Caveat;
+    font-size: 22px;
+    top: 32vw;
+}
+
+form {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 300px;
+    background-color: rgb(212, 173, 121);
+    clip-path: polygon(5% 0, 10% 1%, 25% 1%, 36% 2%, 48% 4%, 59% 1%, 73% 2%, 84% 2%, 91% 1%, 97% 3%, 99% 13%, 99% 23%, 99% 33%, 97% 42%, 98% 53%, 99% 68%, 100% 79%, 99% 88%, 99% 91%, 96% 98%, 93% 98%, 83% 99%, 76% 99%, 70% 96%, 66% 96%, 60% 99%, 54% 100%, 50% 100%, 47% 100%, 40% 98%, 37% 97%, 32% 97%, 28% 99%, 23% 100%, 16% 96%, 11% 97%, 8% 97%, 2% 97%, 2% 97%, 0% 88%, 0% 82%, 2% 72%, 2% 64%, 1% 56%, 1% 51%, 1% 42%, 2% 36%, 1% 26%, 0% 19%, 1% 9%, 3% 3%);
+}
+
+.arrow {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    clip-path: polygon(0 0, 0% 100%, 40% 50%);
 }
