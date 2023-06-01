@@ -1,8 +1,9 @@
 window.onload = function () {
+    let input = document.getElementById('personNameInput')
     let form = document.querySelector("form");
     form.onsubmit = function (event) {
 
-        document.querySelector("span#person1a").innerText = "person 1";
+        document.querySelector("span#person1a").innerText = input;
         document.querySelector("span#person1b").innerText = "person 1";
         document.querySelector("span#person1c").innerText = "person 1";
         document.querySelector("span#person2a").innerText = "person 2";
@@ -14,6 +15,7 @@ window.onload = function () {
     
 
         document.querySelector("").removeAttribute("");
-        event.preventDefault()
+        
     }
+
 }
