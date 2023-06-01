@@ -1,25 +1,26 @@
 body {
     background-color: coral;
+    overflow: hidden;
 }
 
 .standardText {
     font-family: Roboto Mono;
     position: absolute;
     left: 50vw;
-    top: 25vw;
+    top: 300px;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 .fancyText {
     font-family: "Flow Block";
-    top: 28vw;
+    top: 350px;
 }
 
 .basicText {
     font-family: Caveat;
     font-size: 22px;
-    top: 32vw;
+    top: 380px;
 }
 
 form {
@@ -35,8 +36,49 @@ form {
 
 .arrow {
     position: absolute;
+    left: 95%;
+    top: 70%;
+    transform: translate(-50%,-50%);
     width: 300px;
     height: 300px;
+    opacity: 50%;
     background-color: black;
     clip-path: polygon(0 0, 0% 100%, 40% 50%);
+    border-radius: 70px;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.arrowText {
+    position: absolute;
+    color: white;
+    font-family: Roboto Mono;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+}
+
+.arrow:hover {
+    opacity: 100%;
+    left: 96%;
+}
+
+label {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-family: Roboto Mono;
+    font-size: 30px;
+}
+input {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    font-family: Caveat;
+    font-size: 30px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid black ;
 }
